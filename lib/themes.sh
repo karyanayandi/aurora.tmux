@@ -59,6 +59,20 @@ case $SELECTED_THEME in
   )
   ;;
 
+"catppuccin-mocha")
+  declare -A THEME=(
+    ["background"]="#1e1e2e"
+    ["foreground"]="#cdd6f4"
+    ["highlight"]="#9399b2"
+    ["active"]="#7f849c"
+    ["blue"]="#89b4fa"
+    ["cyan"]="#74c7ec"
+    ["green"]="#a6e3a1"
+    ["red"]="#f38ba8"
+    ["yellow"]="#f9e2af"
+  )
+  ;;
+
 *)
   declare -A THEME=(
     ["background"]="#282c34"
